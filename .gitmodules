@@ -1,0 +1,6 @@
+[submodule "Linkedin_server"]
+	path = Linkedin_server
+	url = https://github.com/kasrarezaee/Linkedin_server.git
+[submodule "Linkedin_client"]
+	path = Linkedin_client
+	url = https://github.com/kasrarezaee/Linkedin_client.git
