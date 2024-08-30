@@ -1,8 +1,12 @@
 # A linkedin like app using java and javafx
+
 ##Description
+
 this is a simple linkedin like app built using java for the backend and javafx for the client side. this app interacts with 
 a mysql database and RESTful API endpoints. it uses MVC(model-view-control) architecture.
+
 ##Contents
+
 * Installation
 * Features
 * Endpoints
@@ -11,8 +15,10 @@ a mysql database and RESTful API endpoints. it uses MVC(model-view-control) arch
 * Contribution
 
 ##Installation
+
 1. clone this repo to your local machine.
 2. configure the database connection. open the `DataBaseConnector.java` file located at `Linkedin_server/src/main/java/com/Ap_project/server/dataAccess/`
+
 ```java
 public class DataBaseConnecter {
     private static final String url = "jdbc:mysql://localhost:3306/Linkedin";
@@ -37,6 +43,7 @@ public class DataBaseConnecter {
 4. build and run the server app and then the client app.
 
 ##Features
+
 1. User Management
     * Create, retrieve, update, and delete users.
     * Manage user bios and profile images.
@@ -59,6 +66,7 @@ public class DataBaseConnecter {
    * Search among the users.
 
 ##Endpoints
+
 ```
 user endpoints:
 ---------------
@@ -165,6 +173,7 @@ DELETE /blocks/blocker/blocked
 ```
 
 ##Technologies Used
+
 * Java
 * JavaFX
 * MySQL
@@ -174,9 +183,11 @@ DELETE /blocks/blocker/blocked
 * JSON
 
 ##License
+
 This project is licensed under the MIT License. You are free to modify and distribute the project according to the terms of the license.
 
 ##Contribution
+
 If you want to contribute  , please follow these steps:
    1. Fork the repository.
    2. Create a new branch for your feature or bug fix.
